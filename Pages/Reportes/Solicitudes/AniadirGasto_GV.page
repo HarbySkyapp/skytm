@@ -1,0 +1,144 @@
+{
+	"Caption": "Solicitud",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"AlternateInput": "None",
+							"Caption": "Sociedad",
+							"IsEditable": false,
+							"IsVisible": true,
+							"Target": "",
+							"Value": "#Page:-Previous/#Control:C_Sociedad/#SelectedValue",
+							"_Name": "C_Sociedad",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Num_Sol",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Value": "/SkyTM/Rules/IdSolicitud.js",
+							"_Name": "C_Num_sol",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": false,
+							"Caption": "Ciudad",
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": false,
+							"IsSelectedSectionEnabled": false,
+							"IsVisible": true,
+							"PickerItems": {
+								"ObjectCell": {
+									"DetailImageIsCircular": false,
+									"Icons": [
+										"/SkyTM/Images/globo.png"
+									],
+									"PreserveIconStackSpacing": true,
+									"Styles": {
+									},
+									"Subhead": "{{#Property:CIUDADES/#Property:ZIPCODE}}",
+									"Title": "{{#Property:CIUDADES/#Property:NOM_CIUDAD}}"
+								},
+								"ReturnValue": "{ZIPCODE}",
+								"Target": {
+									"EntitySet": "CIUDADES",
+									"ReadLink": "{@odata.readLink}",
+									"Service": "/SkyTM/Services/SkyTM.service"
+								}
+							},
+							"PickerPrompt": "Seleccione una ciudad",
+							"_Name": "C_Ciudad",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						},
+						{
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": false,
+							"Caption": "Tipo de Gasto",
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": false,
+							"IsSearchCancelledAfterSelection": false,
+							"IsSelectedSectionEnabled": false,
+							"IsVisible": true,
+							"PickerItems": {
+								"ObjectCell": {
+									"DetailImageIsCircular": false,
+									"Icons": [
+										"/SkyTM/Images/SapIcons/DataShop.png"
+									],
+									"PreserveIconStackSpacing": false,
+									"Styles": {
+									},
+									"Subhead": "{TIPGAS_ID}",
+									"Title": "{DES_TIPGAS}"
+								},
+								"ReturnValue": "{ZIPCODE}",
+								"Target": {
+									"EntitySet": "TIPOGASTO",
+									"ReadLink": "{@odata.readLink}",
+									"Service": "/SkyTM/Services/SkyTM.service"
+								}
+							},
+							"PickerPrompt": "Seleccione un Tipo de Gasto",
+							"Target": "",
+							"_Name": "C_TipGas",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						},
+						{
+							"Caption": "Cantidad de Dias",
+							"IsEditable": true,
+							"IsVisible": true,
+							"KeyboardType": "Number",
+							"PlaceHolder": "Ingrese valor",
+							"_Name": "C_Cant_Dias",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Valor Solicitud",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese valor",
+							"_Name": "C_ValSol_Acumulado",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Valor Aprobado",
+							"IsEditable": false,
+							"IsVisible": false,
+							"PlaceHolder": "Ingrese valor",
+							"_Name": "C_Val_Aprobado",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"ButtonType": "Button",
+							"IsVisible": true,
+							"TextAlignment": "center",
+							"Title": "Guardar",
+							"_Name": "C_Añadir_Gasto",
+							"_Type": "Control.Type.FormCell.Button"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				}
+			],
+			"Target": "",
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"Target": "",
+	"_Name": "AniadirGasto_GV",
+	"_Type": "Page"
+}

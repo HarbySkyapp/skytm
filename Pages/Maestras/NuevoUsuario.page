@@ -1,0 +1,102 @@
+{
+	"Caption": "Nuevo Usuario",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Caption": "Usuario",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese el Usuario",
+							"Target": "",
+							"_Name": "C_UserID",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Documento",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese el Número de Documento",
+							"_Name": "C_DocUser",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Nombre",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese Nombre",
+							"_Name": "C_NomUser",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Apellido",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese Apellido",
+							"_Name": "C_ApelUser",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Email",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese Correo Electronico",
+							"_Name": "C_MailUser",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Cargo",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese Su Cargo",
+							"_Name": "C_CargoID",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Area",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese Area",
+							"_Name": "C_AreaID",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Telefono",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese # Telefono",
+							"_Name": "C_NumTel",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Consecutivo",
+							"IsEditable": false,
+							"IsVisible": true,
+							"_Name": "C_Consec",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"IsVisible": true,
+							"OnPress": "/SkyTM/Actions/ClosePage.action",
+							"Target": "",
+							"TextAlignment": "center",
+							"Title": "Guardar",
+							"_Name": "FormCellButton0",
+							"_Type": "Control.Type.FormCell.Button"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				}
+			],
+			"Target": "",
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"Target": "",
+	"_Name": "Nuevo Usuario",
+	"_Type": "Page"
+}

@@ -1,0 +1,61 @@
+{
+	"Collection": [
+		"TIPOGASTO"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "SOC_ID",
+			"_Type": "SOCIEDADES"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "TIPGAS_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DES_TIPGAS",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CTA_CTABLE",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CTA_IVA",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CTA_IPCON",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CTA_PROP",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IND_IVA",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TIPO_MOV",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "SOC_ID_SOC_ID",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SkyTM/Services/SkyTM.service",
+	"_Name": "TIPOGASTO"
+}

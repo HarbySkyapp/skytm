@@ -1,0 +1,10 @@
+{
+	"ModalPage": false,
+	"ModalPageFullscreen": false,
+	"PageToOpen": "/SkyTM/Pages/Consulta/Det_Mov_billetera.page",
+	"Transition": {
+		"Curve": "EaseInOut",
+		"Name": "SlideBottom"
+	},
+	"_Type": "Action.Type.Navigation"
+}

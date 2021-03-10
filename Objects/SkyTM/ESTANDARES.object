@@ -1,0 +1,71 @@
+{
+	"Collection": [
+		"ESTANDARES"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "SOC_ID",
+			"_Type": "SOCIEDADES"
+		},
+		{
+			"Key": false,
+			"_Name": "NIV_ID",
+			"_Type": "NIVELES"
+		},
+		{
+			"Key": false,
+			"_Name": "ZIPCODE",
+			"_Type": "CIUDADES"
+		},
+		{
+			"Key": false,
+			"_Name": "TIPGAS_ID",
+			"_Type": "TIPOGASTO"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "ANIO",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "VAL_UMBRAL",
+			"_Type": "Edm.Double"
+		},
+		{
+			"Key": true,
+			"_Name": "SOC_ID_SOC_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "NIV_ID_SOC_ID_SOC_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "NIV_ID_NIV_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ZIPCODE_ZIPCODE",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TIPGAS_ID_SOC_ID_SOC_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TIPGAS_ID_TIPGAS_ID",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SkyTM/Services/SkyTM.service",
+	"_Name": "ESTANDARES"
+}

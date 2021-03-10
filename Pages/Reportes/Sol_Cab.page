@@ -1,0 +1,225 @@
+{
+	"Caption": "Solicitud",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Caption": "Sociedad",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Value": "{SOC_ID_SOC_ID}",
+							"_Name": "C_Sociedad",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "User_id",
+							"IsEditable": false,
+							"IsVisible": false,
+							"PlaceHolder": "PlaceHolder",
+							"Value": "#Application/#ClientData/#Property:UserId",
+							"_Name": "C_User_id",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Num_Sol",
+							"IsEditable": false,
+							"IsVisible": true,
+							"Target": "",
+							"Value": "/SkyTM/Rules/IdSolicitud.js",
+							"_Name": "C_num_Sol",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Tipo de Solicitud",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Value": "1",
+							"_Name": "C_Tipo_Sol",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Fecha",
+							"IsEditable": false,
+							"IsVisible": false,
+							"Mode": "date",
+							"Target": "",
+							"_Name": "C_Fec_Sis",
+							"_Type": "Control.Type.FormCell.DatePicker"
+						},
+						{
+							"Caption": "Fecha  de Viaje",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Mode": "date",
+							"Value": "Enter Date",
+							"_Name": "C_F_sol",
+							"_Type": "Control.Type.FormCell.DatePicker"
+						},
+						{
+							"Caption": "Valor Diferencia",
+							"IsEditable": false,
+							"IsVisible": false,
+							"PlaceHolder": "Ingrese valor",
+							"Target": "",
+							"_Name": "C_Val_dif",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": false,
+							"Caption": "Proyecto",
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": false,
+							"IsSearchCancelledAfterSelection": false,
+							"IsSelectedSectionEnabled": false,
+							"IsVisible": true,
+							"PickerItems": [
+								"SkyTM",
+								"SkyCM",
+								"SkyHM"
+							],
+							"PickerPrompt": "Please select one single item",
+							"Target": "",
+							"_Name": "C_proyecto",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						},
+						{
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": false,
+							"Caption": "Area",
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": false,
+							"IsSearchCancelledAfterSelection": false,
+							"IsSelectedSectionEnabled": false,
+							"IsVisible": true,
+							"PickerItems": [
+								"SkyTM",
+								"SkyCM",
+								"SkyHM"
+							],
+							"PickerPrompt": "Please select one single item",
+							"Value": [
+								"Two"
+							],
+							"_Name": "C_Area",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						},
+						{
+							"Caption": "Valor Solicitud",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese valor",
+							"_Name": "C_ValSol_Acumulado",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Cantidad de Dias",
+							"IsEditable": true,
+							"IsVisible": true,
+							"KeyboardType": "Number",
+							"PlaceHolder": "Ingrese valor",
+							"_Name": "C_Cant_Dias",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Estado Solicitud",
+							"IsEditable": false,
+							"IsVisible": false,
+							"PlaceHolder": "Ingrese valor",
+							"_Name": "C_Estado_Sol",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Estado Contable",
+							"IsEditable": false,
+							"IsVisible": false,
+							"PlaceHolder": "Ingrese valor",
+							"_Name": "C_Est_Contable",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Valor Aprobado",
+							"IsEditable": false,
+							"IsVisible": false,
+							"PlaceHolder": "Ingrese valor",
+							"_Name": "C_Est_Aprobado",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": false,
+							"Caption": "Aprobador",
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": false,
+							"IsSearchCancelledAfterSelection": false,
+							"IsSelectedSectionEnabled": false,
+							"IsVisible": true,
+							"PickerItems": [
+								"Luis Fernando henao",
+								"Luis FernandoAndres Valencia"
+							],
+							"PickerPrompt": "Seleccione un receptor",
+							"Target": "",
+							"_Name": "C_Receptor",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"IsEditable": true,
+							"IsVisible": true,
+							"MaxNumberOfLines": 3,
+							"PlaceHolder": "Observaciones",
+							"Target": "",
+							"_Name": "C_Observaciones",
+							"_Type": "Control.Type.FormCell.Note"
+						}
+					],
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"ButtonType": "Button",
+							"IsVisible": true,
+							"TextAlignment": "center",
+							"Title": "Añadir Gasto",
+							"_Name": "C_Añadir_Gasto",
+							"_Type": "Control.Type.FormCell.Button"
+						},
+						{
+							"ButtonType": "Button",
+							"IsVisible": true,
+							"TextAlignment": "center",
+							"Title": "Crear Solicitud",
+							"_Name": "C_Crear_Solicitud",
+							"_Type": "Control.Type.FormCell.Button"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				}
+			],
+			"Target": "",
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"Target": "",
+	"_Name": "Solicitud",
+	"_Type": "Page"
+}

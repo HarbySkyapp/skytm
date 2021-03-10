@@ -1,0 +1,8 @@
+{
+	"PageToOpen": "/SkyTM/Pages/Reportes/Solicitudes/Sol_CabGV.page",
+	"Transition": {
+		"Curve": "Spring",
+		"Name": "Fade"
+	},
+	"_Type": "Action.Type.Navigation"
+}

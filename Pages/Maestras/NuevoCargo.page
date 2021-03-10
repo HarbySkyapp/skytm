@@ -1,0 +1,63 @@
+{
+	"Caption": "Nuevo Cargo",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Caption": "Sociedad",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese Sociedad",
+							"Target": "",
+							"_Name": "C_Sociedad",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Cargo",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese Código Cargo",
+							"_Name": "C_CargoID",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Descripción",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese Descripción del Cargo",
+							"_Name": "C_DesCargo",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Nivel",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese  Nivel del Cargo",
+							"_Name": "C_NivelID",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"IsVisible": true,
+							"OnPress": "/SkyTM/Actions/ClosePage.action",
+							"Target": "",
+							"TextAlignment": "center",
+							"Title": "Guardar",
+							"_Name": "FormCellButton0",
+							"_Type": "Control.Type.FormCell.Button"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				}
+			],
+			"Target": "",
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"Target": "",
+	"_Name": "Nuevo Cargo",
+	"_Type": "Page"
+}

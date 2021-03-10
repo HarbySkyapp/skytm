@@ -1,0 +1,181 @@
+{
+	"Collection": [
+		"MOVIMIENTOS"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "SOC_ID",
+			"_Type": "SOCIEDADES"
+		},
+		{
+			"Key": false,
+			"_Name": "NUM_SOL",
+			"_Type": "SOLICITUDES"
+		},
+		{
+			"Key": false,
+			"_Name": "ZIPCODE",
+			"_Type": "CIUDADES"
+		},
+		{
+			"Key": false,
+			"_Name": "TIPGAS_ID",
+			"_Type": "TIPOGASTO"
+		},
+		{
+			"Key": false,
+			"_Name": "PRO_ID",
+			"_Type": "PROVEEDORES"
+		},
+		{
+			"Key": false,
+			"_Name": "MEDPAG_ID",
+			"_Type": "MEDIOSPAGO"
+		},
+		{
+			"Key": false,
+			"_Name": "ESTCONT_ID",
+			"_Type": "ESTADOSCONTABLES"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "REG_NUM",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "NUM_FACT",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FECHA_MOV",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "HORA_MOV",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "VAL_MOV",
+			"_Type": "Edm.Double"
+		},
+		{
+			"Key": false,
+			"_Name": "VAL_IVA",
+			"_Type": "Edm.Double"
+		},
+		{
+			"Key": false,
+			"_Name": "VAL_IPOCMO",
+			"_Type": "Edm.Double"
+		},
+		{
+			"Key": false,
+			"_Name": "VAL_PROPINA",
+			"_Type": "Edm.Double"
+		},
+		{
+			"Key": false,
+			"_Name": "CCO",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MONEDA",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OBSERVACIONES",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FECHA_APROB",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FECHA_CONT",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "SOC_ID_SOC_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "NUM_SOL_SOC_ID_SOC_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "NUM_SOL_USER_ID_USER_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "NUM_SOL_NUM_SOL",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ZIPCODE_ZIPCODE",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TIPGAS_ID_SOC_ID_SOC_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TIPGAS_ID_TIPGAS_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PRO_ID_PRO_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MEDPAG_ID_SOC_ID_SOC_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MEDPAG_ID_MEDPAG_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ESTMOV_ID_SOC_ID_SOC_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ESTMOV_ID_ESTMOV_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ESTCONT_ID_SOC_ID_SOC_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ESTCONT_ID_ESTCONT_ID",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SkyTM/Services/SkyTM.service",
+	"_Name": "MOVIMIENTOS"
+}

@@ -1,0 +1,116 @@
+{
+	"Collection": [
+		"CONTABILIZACION"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "SOC_ID",
+			"_Type": "SOCIEDADES"
+		},
+		{
+			"Key": false,
+			"_Name": "NUM_SOL",
+			"_Type": "SOLICITUDES"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "GJAHR",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BLART",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "WAERS",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BLDAT",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "XBLNR",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BLSTAT",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BUZEI",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BSCHL",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BLDDAT",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "HKONT",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MWSKZ",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DMBTR",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SGTXT",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "KOSTL",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "KUNNR",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "SOC_ID_SOC_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "NUM_SOL_SOC_ID_SOC_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "NUM_SOL_USER_ID_USER_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "NUM_SOL_NUM_SOL",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SkyTM/Services/SkyTM.service",
+	"_Name": "CONTABILIZACION"
+}

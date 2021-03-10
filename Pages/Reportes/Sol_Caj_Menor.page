@@ -1,0 +1,161 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/SkyTM/Actions/ClosePage.action",
+				"Position": "right",
+				"SystemItem": "Save",
+				"Text": "Item",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "Solicitud Caja Menor",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Caption": "Codigo Solicitud",
+							"IsEditable": false,
+							"IsVisible": true,
+							"Target": "",
+							"Value": "/SkyTM/Rules/IdSolicitud.js",
+							"_Name": "C_Cod_Solicitud",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Fecha",
+							"IsEditable": false,
+							"IsVisible": false,
+							"Mode": "date",
+							"Target": "",
+							"_Name": "C_Fec_Sis",
+							"_Type": "Control.Type.FormCell.DatePicker"
+						},
+						{
+							"Caption": "Hora",
+							"IsEditable": false,
+							"IsVisible": false,
+							"Mode": "time",
+							"Target": "",
+							"_Name": "C_Hor_Sis",
+							"_Type": "Control.Type.FormCell.DatePicker"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"Caption": "Fecha",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Mode": "date",
+							"Target": "",
+							"Value": "Enter Date",
+							"_Name": "FormCellDatePicker0",
+							"_Type": "Control.Type.FormCell.DatePicker"
+						},
+						{
+							"Caption": "Hora",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Mode": "time",
+							"Target": "",
+							"Value": "Enter Date",
+							"_Name": "C_Hor_Sol",
+							"_Type": "Control.Type.FormCell.DatePicker"
+						},
+						{
+							"Caption": "Valor",
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese valor Anticipo",
+							"Target": "",
+							"_Name": "Val_Sol",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": false,
+							"Caption": "Tipo de Gasto",
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": false,
+							"IsSearchCancelledAfterSelection": false,
+							"IsSelectedSectionEnabled": false,
+							"IsVisible": true,
+							"PickerItems": [
+								"Transporte",
+								"Alimentacion",
+								"Correspondencia"
+							],
+							"PickerPrompt": "Please select one single item",
+							"Target": "",
+							"_Name": "FormCellListPicker4",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						},
+						{
+							"IsVisible": true,
+							"OnPress": "/SkyTM/Actions/Navegacion/Gastos/IraNuevoGasto.action",
+							"Target": "",
+							"TextAlignment": "center",
+							"Title": "Nuevo Tipo de Gasto",
+							"_Name": "FormCellButton0",
+							"_Type": "Control.Type.FormCell.Button"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": false,
+							"Caption": "Receptor",
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": false,
+							"IsSearchCancelledAfterSelection": false,
+							"IsSelectedSectionEnabled": false,
+							"IsVisible": true,
+							"PickerItems": [
+								"Luis Fernando henao",
+								"Luis FernandoAndres Valencia"
+							],
+							"PickerPrompt": "Seleccione un receptor",
+							"Target": "",
+							"_Name": "C_Receptor",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"IsEditable": true,
+							"IsVisible": true,
+							"MaxNumberOfLines": 3,
+							"PlaceHolder": "Comentario",
+							"Target": "",
+							"_Name": "C_Observacion",
+							"_Type": "Control.Type.FormCell.Note"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				}
+			],
+			"Target": "",
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"Target": "",
+	"_Name": "Solicitud",
+	"_Type": "Page"
+}

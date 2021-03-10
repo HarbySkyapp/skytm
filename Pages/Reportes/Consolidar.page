@@ -1,0 +1,275 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/SkyTM/Actions/ClosePage.action",
+				"Position": "right",
+				"SystemItem": "Save",
+				"Text": "Item",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "Registro de Gastos",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": false,
+							"Caption": "Sociedad",
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": false,
+							"IsSearchCancelledAfterSelection": false,
+							"IsSelectedSectionEnabled": false,
+							"IsVisible": true,
+							"PickerItems": [
+								"08",
+								"07",
+								"01",
+								"04",
+								"09"
+							],
+							"PickerPrompt": "Please select one single item",
+							"_Name": "C_Sociedad",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						},
+						{
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": false,
+							"Caption": "Postal Code",
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": false,
+							"IsSearchCancelledAfterSelection": false,
+							"IsSelectedSectionEnabled": false,
+							"IsVisible": true,
+							"PickerItems": [
+								"76001",
+								"76501",
+								"76981",
+								"72410",
+								"76562"
+							],
+							"PickerPrompt": "Please select one single item",
+							"_Name": "C_PostalCode",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						},
+						{
+							"Caption": "Numero Solicitud",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese valor",
+							"Value": "001",
+							"_Name": "C_NumSolic",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Numero Registro",
+							"IsEditable": false,
+							"IsVisible": false,
+							"PlaceHolder": "Ingrese valor",
+							"Value": "001",
+							"_Name": "C_NumRegis",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Fecha",
+							"IsEditable": false,
+							"IsVisible": false,
+							"Mode": "date",
+							"Value": "Enter Date",
+							"_Name": "C_FechaSol",
+							"_Type": "Control.Type.FormCell.DatePicker"
+						},
+						{
+							"Caption": "Hora",
+							"IsEditable": false,
+							"IsVisible": false,
+							"Mode": "time",
+							"Value": "Enter Date",
+							"_Name": "C_HoraSol",
+							"_Type": "Control.Type.FormCell.DatePicker"
+						}
+					],
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": false,
+							"Caption": "Categoria",
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": false,
+							"IsSearchCancelledAfterSelection": false,
+							"IsSelectedSectionEnabled": false,
+							"IsVisible": true,
+							"PickerItems": [
+								"Comidas y entretenimiento",
+								"Transporte y/o Transalado",
+								"Tiquete Aereo",
+								"Hotel",
+								"Representacion"
+							],
+							"PickerPrompt": "Please select one single item",
+							"_Name": "C_Categoria",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						},
+						{
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": false,
+							"Caption": "Proveedor",
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": false,
+							"IsSearchCancelledAfterSelection": false,
+							"IsSelectedSectionEnabled": false,
+							"IsVisible": true,
+							"PickerItems": [
+								"Frisby",
+								"Uber",
+								"H.Decameron"
+							],
+							"PickerPrompt": "Please select one single item",
+							"_Name": "C_Proveedor",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						},
+						{
+							"AllowEmptySelection": true,
+							"AllowMultipleSelection": false,
+							"Caption": "Medio de Pago",
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": false,
+							"IsSearchCancelledAfterSelection": false,
+							"IsSelectedSectionEnabled": false,
+							"IsVisible": true,
+							"PickerItems": [
+								"Tarjeta credito",
+								"Efectivo"
+							],
+							"PickerPrompt": "Please select one single item",
+							"_Name": "C_MedioPago",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						},
+						{
+							"Caption": "Valor",
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese valor",
+							"_Name": "C_ValGasto",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Centro de Costo",
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese valor",
+							"_Name": "C_CCosto",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": false,
+							"Caption": "Moneda",
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": false,
+							"IsSearchCancelledAfterSelection": false,
+							"IsSelectedSectionEnabled": false,
+							"IsVisible": true,
+							"PickerItems": [
+								"COP",
+								"USD",
+								"EUR"
+							],
+							"PickerPrompt": "Please select one single item",
+							"_Name": "C_Moneda",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						},
+						{
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": false,
+							"Caption": "Proyecto",
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": false,
+							"IsSearchCancelledAfterSelection": false,
+							"IsSelectedSectionEnabled": false,
+							"IsVisible": true,
+							"PickerItems": [
+								"SkyTM",
+								"SkyCM",
+								"SkyHM"
+							],
+							"PickerPrompt": "Please select one single item",
+							"_Name": "C_Proyect",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						}
+					],
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"Caption": "IVA",
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese valor IVA",
+							"_Name": "C_ValIVA",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "IMPOCONSUMO",
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese valor",
+							"_Name": "C_ValIpocons",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "PROPINA",
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese valor",
+							"_Name": "C_ValPropina",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "EstadoSol",
+							"IsEditable": false,
+							"IsVisible": false,
+							"PlaceHolder": "Ingrese valor",
+							"_Name": "C_EstSolic",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "EstadoCont",
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese valor",
+							"_Name": "C_EstContab",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						}
+					],
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"IsEditable": true,
+							"IsVisible": true,
+							"MaxNumberOfLines": 3,
+							"PlaceHolder": "Comentario",
+							"_Name": "FormCellNote0",
+							"_Type": "Control.Type.FormCell.Note"
+						}
+					],
+					"Visible": true
+				}
+			],
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"_Name": "Solicitud",
+	"_Type": "Page"
+}

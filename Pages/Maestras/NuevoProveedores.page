@@ -1,0 +1,47 @@
+{
+	"Caption": "Nuevo Proveedor",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Caption": "C.C./Nit",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese Identificación Proveedor",
+							"Target": "",
+							"_Name": "C_ProvID",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Descripción",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese Nombre Proveedor",
+							"_Name": "C_DescProv",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"IsVisible": true,
+							"OnPress": "/SkyTM/Actions/ClosePage.action",
+							"Target": "",
+							"TextAlignment": "center",
+							"Title": "Guardar",
+							"_Name": "FormCellButton0",
+							"_Type": "Control.Type.FormCell.Button"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				}
+			],
+			"Target": "",
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"Target": "",
+	"_Name": "Nuevo Proveedor",
+	"_Type": "Page"
+}

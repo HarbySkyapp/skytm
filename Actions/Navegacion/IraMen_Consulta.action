@@ -1,0 +1,11 @@
+{
+	"ClearHistory": false,
+	"ModalPage": false,
+	"ModalPageFullscreen": false,
+	"PageToOpen": "/SkyTM/Pages/Consulta/Men_Consulta.page",
+	"Transition": {
+		"Curve": "EaseIn",
+		"Name": "SlideBottom"
+	},
+	"_Type": "Action.Type.Navigation"
+}

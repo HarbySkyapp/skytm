@@ -1,0 +1,71 @@
+{
+	"Collection": [
+		"USUARIOS"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "CARGO_ID",
+			"_Type": "CARGOS"
+		},
+		{
+			"Key": false,
+			"_Name": "AREA_ID",
+			"_Type": "AREAS"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "USER_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "NUM_DOC",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "NOM_USER",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "APE_USER",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EMAIL",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "NUM_SEC",
+			"_Type": "Edm.Double"
+		},
+		{
+			"Key": false,
+			"_Name": "CARGO_ID_SOC_ID_SOC_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CARGO_ID_CARGO_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AREA_ID_SOC_ID_SOC_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AREA_ID_AREA_ID",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SkyTM/Services/SkyTM.service",
+	"_Name": "USUARIOS"
+}

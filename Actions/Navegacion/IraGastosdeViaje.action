@@ -1,0 +1,11 @@
+{
+	"ModalPage": false,
+	"ModalPageFullscreen": false,
+	"PageToOpen": "/SkyTM/Pages/Reportes/MenuReportes.page",
+	"ShowActivityIndicator": true,
+	"Transition": {
+		"Curve": "EaseIn",
+		"Name": "SlideLeft"
+	},
+	"_Type": "Action.Type.Navigation"
+}

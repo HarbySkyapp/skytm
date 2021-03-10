@@ -1,0 +1,53 @@
+{
+	"Caption": "Menu Solicitudes",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Layout": {
+						"NumberOfColumns": 1
+					},
+					"ObjectCells": [
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/SapIcons/Entregar.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/Gastos/IrACabeceraSolicitu.action",
+								"PreserveIconStackSpacing": false,
+								"Target": "",
+								"Title": "Anticipo de Gasto",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/Reporte.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/IraCajaMenor.action",
+								"PreserveIconStackSpacing": false,
+								"Target": "",
+								"Title": "Mis Solicitudes",
+								"Visible": true
+							}
+						}
+					],
+					"Target": "",
+					"Visible": true,
+					"_Name": "SectionObjectCollection0",
+					"_Type": "Section.Type.ObjectCollection"
+				}
+			],
+			"Target": "",
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"Target": "",
+	"_Name": "SubMenuGV",
+	"_Type": "Page"
+}

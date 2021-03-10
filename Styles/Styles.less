@@ -1,0 +1,88 @@
+@mdkYellow1: #ffbb33;
+@mdkRed1: #ff0000;
+@mdkRed1: #ff0000;
+@mdkYellow1: #ffbb33;
+@mdkGris1: #5A5B5D;
+@mdkNaranja1: #FF4500;
+@mdkAzul3:  #93b0ff;
+@mdkGolden1: #DAA520;
+@mdkGris0: #7A7D7D;
+//// This style applies to all the ActionBars in the application
+ActionBar {
+    color: white;
+    background-color: @mdkGris0;
+}
+
+//// This style applies to all the ToolBars in the application
+ToolBar {
+    color: white;
+    background-color: @mdkGris0;
+}
+
+//// LogoutToolbarItem is tool bar item for Logout in Main.page
+#LogoutToolbarItem  {
+    color: black;
+}
+
+//// UploadToolbarItem is tool bar item for Sync in Main.page
+#UploadToolbarItem  {
+    color: red;
+}
+
+//// By-Class style: These style classes can be referenced from rules and set using ClientAPI setStyle function
+//// below snippet is to style SalesOrder button on Main.page
+.MySalesOrderButton {
+  font-color: @mdkRed1;
+  background-color: black;
+}
+
+//// below snippet is to style Title property of an Object Table control in Customers_List.page
+.ObjectTableTitle {
+  font-color: @mdkGolden1;
+  background-color:@mdkGris1;
+}
+
+//// below snippet is to style Object Header control in Customers_Detail.page
+
+.objectHeaderBodyText {
+  font-color: gold;
+}
+
+.objectHeaderDescription {
+  font-color: white;
+}
+
+.objectHeaderFootNote {
+  font-color: white;
+}
+
+.objectHeaderHeadline {
+  font-color: white;
+  font-name: boldSystem;
+  font-style: bold;
+  font-size: 20;
+}
+
+.objectHeaderBackground {
+background-color: @mdkGris1;
+}
+
+.objectHeaderStatus {
+  background-color: lavender;
+  font-color: red;
+  font-name: boldSystem;
+  font-style: italic;
+  font-size: 18;
+}
+
+.objectHeaderSubhead {
+  font-color: yellow;
+}
+
+.objectHeaderSubStatus {
+  background-color: #cccccc;
+  font-color: blue;
+  font-name: italicSystem;
+  font-style: italic;
+  font-size: 18;
+}

@@ -1,0 +1,6 @@
+{
+	"ModalPage": false,
+	"ModalPageFullscreen": false,
+	"PageToOpen": "/SkyTM/Pages/Ayuda/AyudaRegistro.page",
+	"_Type": "Action.Type.Navigation"
+}

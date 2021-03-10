@@ -1,0 +1,11 @@
+{
+	"ClearHistory": false,
+	"ModalPage": false,
+	"ModalPageFullscreen": false,
+	"PageToOpen": "/SkyTM/Pages/Ayuda/Men_Ayuda.page",
+	"Transition": {
+		"Curve": "Spring",
+		"Name": "Slide"
+	},
+	"_Type": "Action.Type.Navigation"
+}

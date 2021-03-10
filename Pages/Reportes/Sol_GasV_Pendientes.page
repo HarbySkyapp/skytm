@@ -1,0 +1,77 @@
+{
+	"Caption": "Pendientes",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Layout": {
+						"NumberOfColumns": 1
+					},
+					"SimplePropertyCells": [
+						{
+							"SimplePropertyCell": {
+								"AccessoryType": "disclosureIndicator",
+								"KeyName": "Total:",
+								"Target": "",
+								"Value": "1",
+								"Visible": true
+							}
+						}
+					],
+					"Target": "",
+					"Visible": true,
+					"_Name": "SectionSimplePropertyCollection0",
+					"_Type": "Section.Type.SimplePropertyCollection"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Layout": {
+						"NumberOfColumns": 1
+					},
+					"SimplePropertyCell": {
+						"AccessoryType": "disclosureIndicator",
+						"KeyName": "Name",
+						"Value": "Value"
+					},
+					"Visible": true,
+					"_Name": "SectionSimplePropertyCollection1",
+					"_Type": "Section.Type.SimplePropertyCollection"
+				},
+				{
+					"ContactCell": {
+						"ActivityItems": [
+							{
+								"ActivityType": "Detail",
+								"ActivityValue": "000-000-0000"
+							}
+						],
+						"DetailImage": "/SkyTM/Images/cruce.png",
+						"Headline": "Alimentacion",
+						"Subheadline": "20-08-2020"
+					},
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Target": {
+						"EntitySet": "",
+						"Service": ""
+					},
+					"Visible": true,
+					"_Name": "SectionContactCellTable0",
+					"_Type": "Section.Type.ContactCell"
+				}
+			],
+			"Target": "",
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"Target": "",
+	"_Name": "Sol_Pendientes",
+	"_Type": "Page"
+}

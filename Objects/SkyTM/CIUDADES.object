@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"CIUDADES"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "ZIPCODE",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "NOM_CIUDAD",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SkyTM/Services/SkyTM.service",
+	"_Name": "CIUDADES"
+}

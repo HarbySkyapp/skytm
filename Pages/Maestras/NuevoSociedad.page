@@ -1,0 +1,47 @@
+{
+	"Caption": "Nueva Sociedad",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Caption": "Sociedad",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese Sociedad",
+							"Target": "",
+							"_Name": "C_Sociedad",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Nombre",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese Nombre",
+							"_Name": "C_DescSoc",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"IsVisible": true,
+							"OnPress": "/SkyTM/Actions/ClosePage.action",
+							"Target": "",
+							"TextAlignment": "center",
+							"Title": "Guardar",
+							"_Name": "FormCellButton0",
+							"_Type": "Control.Type.FormCell.Button"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				}
+			],
+			"Target": "",
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"Target": "",
+	"_Name": "Nueva Sociedad",
+	"_Type": "Page"
+}

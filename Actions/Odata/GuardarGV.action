@@ -1,0 +1,19 @@
+{
+	"Properties": {
+		"NUM_DIAS": "#Page:AniadirGasto_GV/#Control:C_Cant_Dias/#Value",
+		"NUM_SOL_NUM_SOL": "#Page:AniadirGasto_GV/#Control:C_Num_sol/#Value",
+		"NUM_SOL_SOC_ID_SOC_ID": "#Page:AniadirGasto_GV/#Control:C_Num_sol/#Value",
+		"NUM_SOL_USER_ID_USER_ID": "#Application/#ClientData/#Property:UserId",
+		"SOC_ID_SOC_ID": "#Page:AniadirGasto_GV/#Control:C_Sociedad/#Value",
+		"TIPGAS_SOC_ID_SOC_ID": "#Page:AniadirGasto_GV/#Control:C_Sociedad/#Value",
+		"TIPGAS_TIPGAS_ID": "#Page:AniadirGasto_GV/#Control:C_TipGas/#SelectedValue",
+		"VAL_APRO": "#Page:AniadirGasto_GV/#Control:C_Val_Aprobado/#Value",
+		"VAL_SOL": "#Page:AniadirGasto_GV/#Control:C_ValSol_Acumulado/#Value",
+		"ZIPCODE_ZIPCODE": "#Page:AniadirGasto_GV/#Control:C_Ciudad/#SelectedValue"
+	},
+	"Target": {
+		"EntitySet": "ANTSOL_DETALLE",
+		"Service": "/SkyTM/Services/SkyTM.service"
+	},
+	"_Type": "Action.Type.ODataService.CreateEntity"
+}

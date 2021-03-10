@@ -1,0 +1,63 @@
+{
+	"Caption": "Nuevo Tipo Gasto",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Caption": "Sociedad",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese Sociedad",
+							"Target": "",
+							"_Name": "C_Sociedad",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Tipo Gasto",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese el Tipo de Gasto",
+							"_Name": "C_TipGasto",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Descripción",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese Descripción del Gasto",
+							"_Name": "C_DescGasto",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Cuenta",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese Cuenta Contable Asociada",
+							"_Name": "C_CtaCtble",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"IsVisible": true,
+							"OnPress": "/SkyTM/Actions/ClosePage.action",
+							"Target": "",
+							"TextAlignment": "center",
+							"Title": "Guardar",
+							"_Name": "FormCellButton0",
+							"_Type": "Control.Type.FormCell.Button"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				}
+			],
+			"Target": "",
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"Target": "",
+	"_Name": "Nuevo Tipo Gasto",
+	"_Type": "Page"
+}

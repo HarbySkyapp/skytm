@@ -1,0 +1,55 @@
+{
+	"Caption": "Nuevo Aprobador",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Caption": "Sociedad",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese Sociedad",
+							"Target": "",
+							"_Name": "C_Sociedad",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Aprobador",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese Código de Aprobador",
+							"_Name": "C_UserID",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Area",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese Area del Aprobador",
+							"_Name": "C_AreaID",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"IsVisible": true,
+							"OnPress": "/SkyTM/Actions/ClosePage.action",
+							"Target": "",
+							"TextAlignment": "center",
+							"Title": "Guardar",
+							"_Name": "FormCellButton0",
+							"_Type": "Control.Type.FormCell.Button"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				}
+			],
+			"Target": "",
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"Target": "",
+	"_Name": "Nuevo Aprobador",
+	"_Type": "Page"
+}

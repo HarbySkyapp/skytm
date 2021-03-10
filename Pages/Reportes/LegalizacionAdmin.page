@@ -1,0 +1,73 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/SkyTM/Actions/ClosePage.action",
+				"Position": "right",
+				"SystemItem": "Save",
+				"Text": "Item",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "Legalizacion",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Caption": "Fecha",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Mode": "date",
+							"Target": "",
+							"Value": "Enter Date",
+							"_Name": "C_Fechasol",
+							"_Type": "Control.Type.FormCell.DatePicker"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"Caption": "Valor Aprobado",
+							"IsEditable": false,
+							"IsVisible": true,
+							"Target": "",
+							"_Name": "FormCellSimpleProperty0",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Valor Real",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Target": "",
+							"_Name": "FormCellSimpleProperty9",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Proyecto",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Target": "",
+							"_Name": "FormCellSimpleProperty6",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				}
+			],
+			"Target": "",
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"Target": "",
+	"_Name": "Solicitud",
+	"_Type": "Page"
+}

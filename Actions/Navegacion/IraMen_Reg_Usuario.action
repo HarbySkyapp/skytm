@@ -1,0 +1,10 @@
+{
+	"ModalPage": false,
+	"ModalPageFullscreen": false,
+	"PageToOpen": "/SkyTM/Pages/Registro/Men_Reg_Usuario.page",
+	"Transition": {
+		"Curve": "EaseIn",
+		"Name": "SlideBottom"
+	},
+	"_Type": "Action.Type.Navigation"
+}

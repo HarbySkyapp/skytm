@@ -1,0 +1,187 @@
+{
+	"Caption": "Solicitud",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Caption": "Sociedad",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Value": "{SOC_ID_SOC_ID}",
+							"_Name": "FormCellSimpleProperty0",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Codigo Solicitud",
+							"IsEditable": false,
+							"IsVisible": true,
+							"Target": "",
+							"Value": "/SkyTM/Rules/IdSolicitud.js",
+							"_Name": "C_Cod_Solicitud",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Tipo de Solicitud",
+							"IsEditable": false,
+							"IsVisible": false,
+							"PlaceHolder": "PlaceHolder",
+							"_Name": "FormCellSimpleProperty1",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Fecha",
+							"IsEditable": false,
+							"IsVisible": false,
+							"Mode": "date",
+							"Target": "",
+							"_Name": "C_Fec_Sis",
+							"_Type": "Control.Type.FormCell.DatePicker"
+						},
+						{
+							"Caption": "Fecha  de Solicitud",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Mode": "date",
+							"Value": "Enter Date",
+							"_Name": "FormCellDatePicker0",
+							"_Type": "Control.Type.FormCell.DatePicker"
+						},
+						{
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": false,
+							"Caption": "Documento Contable",
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": false,
+							"IsSearchCancelledAfterSelection": false,
+							"IsSelectedSectionEnabled": false,
+							"IsVisible": true,
+							"PickerItems": [
+								"NotaContable",
+								"FacturaVenta",
+								"NotaCredito"
+							],
+							"PickerPrompt": "Please select one single item",
+							"_Name": "FormCellListPicker6",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						},
+						{
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": false,
+							"Caption": "Area",
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": false,
+							"IsSearchCancelledAfterSelection": false,
+							"IsSelectedSectionEnabled": false,
+							"IsVisible": true,
+							"PickerItems": [
+								"Sistemas",
+								"Gerencia",
+								"Diseño",
+								"Investigacion Y Desarrollo",
+								"Soporte Tecnico"
+							],
+							"PickerPrompt": "Please select one single item",
+							"_Name": "FormCellListPicker5",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						},
+						{
+							"Caption": "Valor Solicitud",
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese valor",
+							"_Name": "FormCellSimpleProperty2",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Estado Solicitud",
+							"IsEditable": true,
+							"IsVisible": false,
+							"PlaceHolder": "Ingrese valor",
+							"_Name": "FormCellSimpleProperty3",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Estado Contable",
+							"IsEditable": false,
+							"IsVisible": false,
+							"PlaceHolder": "Ingrese valor",
+							"_Name": "FormCellSimpleProperty4",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Valor Aprobado",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese valor",
+							"_Name": "FormCellSimpleProperty5",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": false,
+							"Caption": "Aprobador",
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": false,
+							"IsSearchCancelledAfterSelection": false,
+							"IsSelectedSectionEnabled": false,
+							"IsVisible": true,
+							"PickerItems": [
+								"Luis Fernando henao",
+								"Luis FernandoAndres Valencia"
+							],
+							"PickerPrompt": "Seleccione un receptor",
+							"Target": "",
+							"_Name": "C_Receptor",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"IsEditable": true,
+							"IsVisible": true,
+							"MaxNumberOfLines": 3,
+							"PlaceHolder": "Observaciones",
+							"Target": "",
+							"_Name": "C_Observacion",
+							"_Type": "Control.Type.FormCell.Note"
+						}
+					],
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"ButtonType": "Button",
+							"IsVisible": true,
+							"TextAlignment": "center",
+							"Title": "Guardar y Enviar Solicitud",
+							"_Name": "FormCellButton0",
+							"_Type": "Control.Type.FormCell.Button"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				}
+			],
+			"Target": "",
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"Target": "",
+	"_Name": "Solicitud_Cab_CM",
+	"_Type": "Page"
+}

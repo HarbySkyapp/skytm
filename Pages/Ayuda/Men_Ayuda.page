@@ -1,0 +1,78 @@
+{
+	"Caption": "Ayuda",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"ObjectCells": [
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/timon.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/IraAyudaRegistro.action",
+								"PreserveIconStackSpacing": false,
+								"Subhead": "Control de Maestros",
+								"Target": "",
+								"Title": "Control Maestro",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/GastoViaje.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/IraAyudaGestionGastos.action",
+								"PreserveIconStackSpacing": false,
+								"Subhead": "Ayuda Gestion de Gastos",
+								"Target": "",
+								"Title": "Gestion de Gastos",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/SapIcons/Buscar.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/IraAyudaConsulta.action",
+								"PreserveIconStackSpacing": false,
+								"Subhead": "Ayuda Consultas",
+								"Target": "",
+								"Title": "Consultas",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/actualizar.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/IraAyudaSincronizar.action",
+								"PreserveIconStackSpacing": false,
+								"Subhead": "Ayuda Sincronizar",
+								"Target": "",
+								"Title": "Sincronizar",
+								"Visible": true
+							}
+						}
+					],
+					"Target": "",
+					"Visible": true,
+					"_Name": "SectionObjectTable0",
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"Target": "",
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"Target": "",
+	"_Name": "AyudaModulos",
+	"_Type": "Page"
+}

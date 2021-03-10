@@ -1,0 +1,44 @@
+{
+	"Collection": [
+		"PROVEEDORES"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "PRO_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DES_PRO",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DIR_PRO",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TEL_PRO",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CIU_PRO",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PAIS_PRO",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "KUNNR",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SkyTM/Services/SkyTM.service",
+	"_Name": "PROVEEDORES"
+}

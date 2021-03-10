@@ -1,0 +1,81 @@
+{
+	"Collection": [
+		"ANTSOL_DETALLE"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "SOC_ID",
+			"_Type": "SOCIEDADES"
+		},
+		{
+			"Key": false,
+			"_Name": "NUM_SOL",
+			"_Type": "SOLICITUDES"
+		},
+		{
+			"Key": false,
+			"_Name": "ZIPCODE",
+			"_Type": "CIUDADES"
+		},
+		{
+			"Key": false,
+			"_Name": "TIPGAS",
+			"_Type": "TIPOGASTO"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "NUM_DIAS",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "VAL_SOL",
+			"_Type": "Edm.Double"
+		},
+		{
+			"Key": false,
+			"_Name": "VAL_APRO",
+			"_Type": "Edm.Double"
+		},
+		{
+			"Key": true,
+			"_Name": "SOC_ID_SOC_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "NUM_SOL_SOC_ID_SOC_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "NUM_SOL_USER_ID_USER_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "NUM_SOL_NUM_SOL",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ZIPCODE_ZIPCODE",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "TIPGAS_SOC_ID_SOC_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "TIPGAS_TIPGAS_ID",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SkyTM/Services/SkyTM.service",
+	"_Name": "ANTSOL_DETALLE"
+}

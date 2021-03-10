@@ -1,0 +1,113 @@
+{
+	"ActionResult": {
+		"_Name": "init"
+	},
+	"ActivityIndicatorText": "Downloading...",
+	"DefiningRequests": [
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "CONTABILIZACION",
+			"Query": "CONTABILIZACION"
+		},
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "ANTSOL_DETALLE",
+			"Query": "ANTSOL_DETALLE"
+		},
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "AREAS",
+			"Query": "AREAS"
+		},
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "CARGOS",
+			"Query": "CARGOS"
+		},
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "CIUDADES",
+			"Query": "CIUDADES"
+		},
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "ESTADOSCONTABLES",
+			"Query": "ESTADOSCONTABLES"
+		},
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "ESTADOSMOVIMIENTOS",
+			"Query": "ESTADOSMOVIMIENTOS"
+		},
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "ESTADOSSOLICITUDES",
+			"Query": "ESTADOSSOLICITUDES"
+		},
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "ESTANDARES",
+			"Query": "ESTANDARES"
+		},
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "MEDIOSPAGO",
+			"Query": "MEDIOSPAGO"
+		},
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "MOVIMIENTOS",
+			"Query": "MOVIMIENTOS"
+		},
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "NIVELES",
+			"Query": "NIVELES"
+		},
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "PARAMETROS",
+			"Query": "PARAMETROS"
+		},
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "PROVEEDORES",
+			"Query": "PROVEEDORES"
+		},
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "PROYECTOS",
+			"Query": "PROYECTOS"
+		},
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "SOCIEDADES",
+			"Query": "SOCIEDADES"
+		},
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "SOCXUSUARIOS",
+			"Query": "SOCXUSUARIOS"
+		},
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "TIPOGASTO",
+			"Query": "TIPOGASTO"
+		},
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "TIPOSSOLICITUD",
+			"Query": "TIPOSSOLICITUD"
+		},
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "USUARIOS",
+			"Query": "USUARIOS"
+		}
+	],
+	"OnFailure": "/SkyTM/Actions/Service/InitializeOfflineFailureMessage.action",
+	"OnSuccess": "/SkyTM/Actions/Service/InitializeOfflineSuccessMessage.action",
+	"Service": "/SkyTM/Services/SkyTM.service",
+	"ShowActivityIndicator": true,
+	"_Type": "Action.Type.OfflineOData.Initialize"
+}

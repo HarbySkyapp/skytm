@@ -1,0 +1,31 @@
+{
+	"Collection": [
+		"PARAMETROS"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "SOC_ID",
+			"_Type": "SOCIEDADES"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "PARAM_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DES_PARAM",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "SOC_ID_SOC_ID",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SkyTM/Services/SkyTM.service",
+	"_Name": "PARAMETROS"
+}

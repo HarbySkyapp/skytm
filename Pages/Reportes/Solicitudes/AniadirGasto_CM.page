@@ -1,0 +1,150 @@
+{
+	"Caption": "Solicitud",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Caption": "Sociedad",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Value": "#Page:-Previous/#Control:C_Sociedad/#SelectedValue",
+							"_Name": "C_Sociedad",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Num_Sol",
+							"IsEditable": false,
+							"IsVisible": true,
+							"Target": "",
+							"Value": "001",
+							"_Name": "C_num_Sol",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": false,
+							"Caption": "Ciudad",
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": false,
+							"IsSearchCancelledAfterSelection": false,
+							"IsSelectedSectionEnabled": false,
+							"IsVisible": true,
+							"PickerItems": {
+								"ObjectCell": {
+									"DetailImageIsCircular": false,
+									"Icons": [
+										"/SkyTM/Images/globo.png"
+									],
+									"PreserveIconStackSpacing": false,
+									"Styles": {
+									},
+									"Subhead": "{ZIPCODE}",
+									"Title": "{NOM_CIUDAD}"
+								},
+								"ReturnValue": "{ZIPCODE}",
+								"Target": {
+									"EntitySet": "CIUDADES",
+									"QueryOptions": "$orderby=NOM_CIUDAD desc",
+									"ReadLink": "{@odata.readLink}",
+									"Service": "/SkyTM/Services/SkyTM.service"
+								}
+							},
+							"PickerPrompt": "Please select one single item",
+							"_Name": "C_Area",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						},
+						{
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": false,
+							"Caption": "Tipo de Gasto",
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": false,
+							"IsSearchCancelledAfterSelection": false,
+							"IsSelectedSectionEnabled": false,
+							"IsVisible": true,
+							"PickerItems": {
+								"ObjectCell": {
+									"DetailImageIsCircular": false,
+									"Icons": [
+									],
+									"PreserveIconStackSpacing": true,
+									"Styles": {
+									}
+								},
+								"ReturnValue": "",
+								"Target": {
+									"EntitySet": "TIPOGASTO",
+									"QueryOptions": "$expand=SOC_ID&$filter=SOC_ID_SOC_ID eq '{{#Page:-Previous/#Control:C_Sociedad/#Value}}'&$orderby=DES_TIPGAS desc",
+									"ReadLink": "{@odata.readLink}",
+									"Service": "/SkyTM/Services/SkyTM.service"
+								}
+							},
+							"PickerPrompt": "Please select one single item",
+							"Target": "",
+							"_Name": "C_TipGas",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						},
+						{
+							"Caption": "Cantidad de Dias",
+							"IsEditable": true,
+							"IsVisible": true,
+							"KeyboardType": "Number",
+							"PlaceHolder": "Ingrese valor",
+							"_Name": "C_Cant_Dias",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Valor Solicitud",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese valor",
+							"_Name": "C_ValSol_Acumulado",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Valor Aprobado",
+							"IsEditable": false,
+							"IsVisible": false,
+							"PlaceHolder": "Ingrese valor",
+							"_Name": "C_Est_Aprobado",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"ButtonType": "Button",
+							"IsVisible": true,
+							"TextAlignment": "center",
+							"Title": "Guardar",
+							"_Name": "C_Añadir_Gasto",
+							"_Type": "Control.Type.FormCell.Button"
+						},
+						{
+							"ButtonType": "Button",
+							"IsVisible": true,
+							"TextAlignment": "center",
+							"Title": "Guardar y Añadir otro gasto",
+							"_Name": "C_Crear_Solicitud",
+							"_Type": "Control.Type.FormCell.Button"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				}
+			],
+			"Target": "",
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"Target": "",
+	"_Name": "AniadirGasto_CM",
+	"_Type": "Page"
+}

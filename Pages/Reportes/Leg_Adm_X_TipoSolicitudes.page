@@ -1,0 +1,55 @@
+{
+	"Caption": "Legalizacion",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Layout": {
+						"NumberOfColumns": 1
+					},
+					"ObjectCells": [
+						{
+							"ObjectCell": {
+								"AccessoryType": "disclosureIndicator",
+								"DetailImage": "/SkyTM/Images/avion.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/Gastos/IraLeg_Adm_X_Est_GasV.action",
+								"PreserveIconStackSpacing": false,
+								"Subhead": "Pendientes por aprobar",
+								"Target": "",
+								"Title": "Gastos de Viaje",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "disclosureIndicator",
+								"DetailImage": "/SkyTM/Images/jerarquia.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/IraSolXEstadoCaj.action",
+								"PreserveIconStackSpacing": false,
+								"Subhead": "Pendientes por aprobar",
+								"Target": "",
+								"Title": "Caja Menor",
+								"Visible": true
+							}
+						}
+					],
+					"Target": "",
+					"Visible": true,
+					"_Name": "SectionObjectCollection0",
+					"_Type": "Section.Type.ObjectCollection"
+				}
+			],
+			"Target": "",
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"Target": "",
+	"_Name": "TipoSolicitudes",
+	"_Type": "Page"
+}

@@ -1,0 +1,17 @@
+{
+	"Caption": "Detalle Consulta",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+					]
+				}
+			],
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"_Name": "for_det_consulta",
+	"_Type": "Page"
+}

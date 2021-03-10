@@ -1,0 +1,11 @@
+{
+	"ClearHistory": false,
+	"ModalPage": true,
+	"ModalPageFullscreen": true,
+	"PageToOpen": "/SkyTM/Pages/Registro/Reg_UsuarioS.page",
+	"Transition": {
+		"Curve": "EaseInOut",
+		"Name": "Fade"
+	},
+	"_Type": "Action.Type.Navigation"
+}

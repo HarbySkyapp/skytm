@@ -1,0 +1,68 @@
+{
+	"Caption": "Aprobador",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Layout": {
+						"NumberOfColumns": 1
+					},
+					"ObjectCells": [
+						{
+							"ObjectCell": {
+								"AccessoryType": "disclosureIndicator",
+								"DetailImage": "/SkyTM/Images/barita.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/Gastos/IraSol_Aprobadas_Caj.action",
+								"PreserveIconStackSpacing": false,
+								"Subhead": "Solicitudes Aprobadas",
+								"Target": "",
+								"Title": "Aprobadas",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "disclosureIndicator",
+								"DetailImage": "/SkyTM/Images/cruce.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/Gastos/IraSol_Pen_Caj.action",
+								"PreserveIconStackSpacing": false,
+								"Subhead": "Pendientes por aprobar",
+								"Target": "",
+								"Title": "Pendientes",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "disclosureIndicator",
+								"DetailImage": "/SkyTM/Images/equis.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/Gastos/IraSol_Canceladas_Caj.action",
+								"PreserveIconStackSpacing": false,
+								"Subhead": "Solicitudes Rechazadas",
+								"Target": "",
+								"Title": "Rechazadas",
+								"Visible": true
+							}
+						}
+					],
+					"Target": "",
+					"Visible": true,
+					"_Name": "SectionObjectCollection0",
+					"_Type": "Section.Type.ObjectCollection"
+				}
+			],
+			"Target": "",
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"Target": "",
+	"_Name": "Aprobador",
+	"_Type": "Page"
+}

@@ -1,0 +1,55 @@
+{
+	"Caption": "Legalizacion",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Layout": {
+						"NumberOfColumns": 1
+					},
+					"ObjectCells": [
+						{
+							"ObjectCell": {
+								"AccessoryType": "disclosureIndicator",
+								"DetailImage": "/SkyTM/Images/timon.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/Gastos/IraLeg_Adm_X_Tipo.action",
+								"PreserveIconStackSpacing": false,
+								"Subhead": "Legalizacion Lider de Area",
+								"Target": "",
+								"Title": "Legalizacion Administrativa",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "disclosureIndicator",
+								"DetailImage": "/SkyTM/Images/Balance.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/Gastos/IraLeg_Con_X_Tipo.action",
+								"PreserveIconStackSpacing": false,
+								"Subhead": "Control financiero",
+								"Target": "",
+								"Title": "Legalizacion Contable",
+								"Visible": true
+							}
+						}
+					],
+					"Target": "",
+					"Visible": true,
+					"_Name": "SectionObjectCollection0",
+					"_Type": "Section.Type.ObjectCollection"
+				}
+			],
+			"Target": "",
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"Target": "",
+	"_Name": "TipoSolicitudes",
+	"_Type": "Page"
+}

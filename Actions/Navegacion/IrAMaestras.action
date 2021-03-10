@@ -1,0 +1,8 @@
+{
+	"PageToOpen": "/SkyTM/Pages/Maestras/MenuMaestras.page",
+	"Transition": {
+		"Curve": "Spring",
+		"Name": "Slide"
+	},
+	"_Type": "Action.Type.Navigation"
+}

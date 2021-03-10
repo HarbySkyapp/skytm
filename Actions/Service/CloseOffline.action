@@ -1,0 +1,10 @@
+{
+	"_Type": "Action.Type.OfflineOData.Close",
+	"Service": "/SkyTM/Services/SkyTM.service",
+	"Force": true,
+	"ActionResult": {
+		"_Name": "close"
+	},
+	"OnSuccess": "/SkyTM/Actions/Service/CloseOfflineSuccessMessage.action",
+	"OnFailure": "/SkyTM/Actions/Service/CloseOfflineFailureMessage.action"
+}

@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"SOCIEDADES"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "SOC_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DES_SOC",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SkyTM/Services/SkyTM.service",
+	"_Name": "SOCIEDADES"
+}

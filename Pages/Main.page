@@ -1,0 +1,144 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"IsIconCircular": false,
+				"OnPress": "/SkyTM/Actions/Navegacion/IraUsuario.action",
+				"Position": "Right",
+				"SystemItem": "Bookmarks",
+				"Text": "",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "Home",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"BodyText": "{NOM_USER}{APE_USER}",
+						"DetailImage": "/SkyTM/Images/IconoSkyTM_White.png",
+						"DetailImageIsCircular": false,
+						"Footnote": "V. 1.0.1",
+						"HeadlineText": "SkyTravelManagment",
+						"StatusText": "💵 ✈︎ & 💰 🧰",
+						"Subhead": "#Application/#ClientData/#Property:UserId",
+						"SubstatusText": "{NOM_USER}{APE_USER}",
+						"Tags": [
+							"Solicitudes",
+							"Aprobacion",
+							"Reportes"
+						],
+						"Target": ""
+					},
+					"Visible": true,
+					"_Name": "SectionObjectHeader2",
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Layout": {
+						"NumberOfColumns": 1
+					},
+					"ObjectCells": [
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/GastoViaje.png",
+								"DetailImageIsCircular": true,
+								"OnPress": "/SkyTM/Actions/Navegacion/IraGastosdeViaje.action",
+								"PreserveIconStackSpacing": false,
+								"Subhead": "Solicitudes, Aprobaciones, Reporte",
+								"Target": "",
+								"Title": "Gastos",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/SapIcons/Buscar.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/IraMen_Consulta.action",
+								"PreserveIconStackSpacing": false,
+								"Subhead": "Billetera, Movimientos",
+								"Target": "",
+								"Title": "Consultas",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/timon.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/IrAMaestras.action",
+								"PreserveIconStackSpacing": false,
+								"Subhead": "Datos Maestros",
+								"Target": "",
+								"Title": "Control Maestro ",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/info.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/IraModulosayuda.action",
+								"PreserveIconStackSpacing": false,
+								"Subhead": "Informacion Operativa ",
+								"Target": "",
+								"Title": "Ayuda",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/actualizar.png",
+								"DetailImageIsCircular": true,
+								"OnPress": "/SkyTM/Rules/prueba.js",
+								"PreserveIconStackSpacing": false,
+								"Subhead": "Sincronice con su servidor de datos cloud",
+								"Target": "",
+								"Title": "Sincronizar",
+								"Visible": true
+							}
+						}
+					],
+					"Target": "",
+					"Visible": true,
+					"_Name": "SectionObjectCollection0",
+					"_Type": "Section.Type.ObjectCollection"
+				}
+			],
+			"Target": "",
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"Target": "",
+	"ToolBar": {
+		"Controls": [
+			{
+				"Caption": "Cerrar sesion",
+				"Clickable": true,
+				"Enabled": true,
+				"Image": "$(PLT,,)",
+				"ItemType": "Button",
+				"OnPress": "/SkyTM/Actions/Logout.action",
+				"Position": "right",
+				"Target": "",
+				"Visible": true,
+				"_Name": "LogoutToolbarItem",
+				"_Type": "Control.Type.ToolbarItem"
+			}
+		]
+	},
+	"_Name": "Main",
+	"_Type": "Page"
+}

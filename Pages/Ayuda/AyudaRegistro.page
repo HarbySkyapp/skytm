@@ -1,0 +1,55 @@
+{
+	"Caption": "Ayuda Control Maestro",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"IsEditable": true,
+							"IsVisible": true,
+							"Value": "            Ayuda Control Maestro",
+							"_Name": "FormCellTitle0",
+							"_Type": "Control.Type.FormCell.Title"
+						}
+					],
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"IsEditable": true,
+							"IsVisible": true,
+							"Size": 85,
+							"Value": "Este Módulo permite capturar la Información de: Sociedades, Areas, Categorías, Cargos, Usuarios, Parámetros, Aprobadores,",
+							"_Name": "FormCellNote0",
+							"_Type": "Control.Type.FormCell.Note"
+						},
+						{
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Value": "Ciudades, Proyectos, Estándares, Proveedores, Tipos de Gasto y Tipos de Solicitud. ",
+							"_Name": "FormCellNote1",
+							"_Type": "Control.Type.FormCell.Note"
+						},
+						{
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Value": "Sugerimos el Orden anterior para crear los datos, los cuales son la base para el funcionamiento de los módulos restantes.",
+							"_Name": "FormCellNote2",
+							"_Type": "Control.Type.FormCell.Note"
+						}
+					],
+					"Visible": true
+				}
+			],
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"OnLoaded": "/SkyTM/Actions/Navegacion/IraAyudaRegistro.action",
+	"_Name": "Ayuda Control Maestro",
+	"_Type": "Page"
+}

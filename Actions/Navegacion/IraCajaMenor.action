@@ -1,0 +1,10 @@
+{
+	"ModalPage": false,
+	"ModalPageFullscreen": false,
+	"PageToOpen": "/SkyTM/Pages/Reportes/Solicitudes/SubGas_CjMenor.page",
+	"Transition": {
+		"Curve": "Spring",
+		"Name": "Fade"
+	},
+	"_Type": "Action.Type.Navigation"
+}

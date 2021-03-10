@@ -1,0 +1,11 @@
+{
+	"ClearHistory": false,
+	"ModalPage": false,
+	"ModalPageFullscreen": false,
+	"PageToOpen": "/SkyTM/Pages/Reportes/Prueba.page",
+	"Transition": {
+		"Curve": "EaseIn",
+		"Name": "Fade"
+	},
+	"_Type": "Action.Type.Navigation"
+}

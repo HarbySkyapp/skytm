@@ -1,0 +1,55 @@
+{
+	"Caption": "Menu Solicitudes",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Layout": {
+						"NumberOfColumns": 1
+					},
+					"ObjectCells": [
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/avion.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/IraReg_Solicitud.action",
+								"PreserveIconStackSpacing": false,
+								"Subhead": "Solicitud de Gastos de viaje",
+								"Target": "",
+								"Title": "Gastos de viaje",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/SapIcons/CajaMenor1.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/IraCajaMenor.action",
+								"PreserveIconStackSpacing": false,
+								"Subhead": "Solicitud de Caja Menor ",
+								"Target": "",
+								"Title": "Caja Menor",
+								"Visible": true
+							}
+						}
+					],
+					"Target": "",
+					"Visible": true,
+					"_Name": "SectionObjectCollection0",
+					"_Type": "Section.Type.ObjectCollection"
+				}
+			],
+			"Target": "",
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"Target": "",
+	"_Name": "Menu_Solicitudes",
+	"_Type": "Page"
+}

@@ -1,0 +1,87 @@
+{
+	"Caption": "Gestion de Gastos",
+	"Controls": [
+		{
+			"Items": [
+				{
+					"Caption": "TabItem1",
+					"Image": "/SkyTM/Images/SKYTM.png",
+					"_Name": "ir",
+					"_Type": "Control.Type.TabItem"
+				},
+				{
+					"Caption": "TabItem1",
+					"_Name": "TabItem1",
+					"_Type": "Control.Type.TabItem"
+				},
+				{
+					"Caption": "TabItem1",
+					"_Name": "TabItem1",
+					"_Type": "Control.Type.TabItem"
+				}
+			],
+			"Position": "Bottom",
+			"Sections": [
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Layout": {
+						"NumberOfColumns": 1
+					},
+					"ObjectCells": [
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/Report.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/IraSolicitud.action",
+								"PreserveIconStackSpacing": false,
+								"Subhead": "Envie sus solicitudes de gasto",
+								"Target": "",
+								"Title": "Solicitudes de gastos",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/SapIcons/Aprobador.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/IraSol_X_Tipo.action",
+								"PreserveIconStackSpacing": false,
+								"Subhead": "Aprobador de solicitudes",
+								"Target": "",
+								"Title": "Aprobador",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/reportes.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/IraConsolidar.action",
+								"PreserveIconStackSpacing": false,
+								"Subhead": "Reporte sus gastos",
+								"Target": "",
+								"Title": "Reporte de Gastos",
+								"Visible": true
+							}
+						}
+					],
+					"Target": "",
+					"Visible": true,
+					"_Name": "SectionObjectCollection3",
+					"_Type": "Section.Type.ObjectCollection"
+				}
+			],
+			"Target": "",
+			"_Name": "Tabs0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"Target": "",
+	"_Name": "Reportar",
+	"_Type": "Page"
+}

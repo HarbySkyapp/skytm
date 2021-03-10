@@ -1,0 +1,10 @@
+{
+	"ModalPage": true,
+	"ModalPageFullscreen": true,
+	"PageToOpen": "/SkyTM/Pages/Reportes/Aprobador.page",
+	"Transition": {
+		"Curve": "Spring",
+		"Name": "FlipRight"
+	},
+	"_Type": "Action.Type.Navigation"
+}

@@ -1,0 +1,11 @@
+{
+	"Caption": "Cuenta",
+	"Controls": [
+		{
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "Cuenta",
+	"_Type": "Page"
+}

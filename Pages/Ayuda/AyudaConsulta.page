@@ -1,0 +1,62 @@
+{
+	"Caption": "Ayuda Consulta",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"IsEditable": true,
+							"IsVisible": true,
+							"Value": "            Ayuda Consulta",
+							"_Name": "FormCellTitle0",
+							"_Type": "Control.Type.FormCell.Title"
+						}
+					],
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"IsEditable": true,
+							"IsVisible": true,
+							"Value": "Este Módulo permite Consultar lo siguiente:",
+							"_Name": "FormCellNote0",
+							"_Type": "Control.Type.FormCell.Note"
+						},
+						{
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Value": "1. Por la opción de Billetera el Saldo Disponible que tiene en el momento con base en el Monto Aprobado.",
+							"_Name": "FormCellNote2",
+							"_Type": "Control.Type.FormCell.Note"
+						},
+						{
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Value": "2. Relación de los Gastos Registrados",
+							"_Name": "FormCellNote1",
+							"_Type": "Control.Type.FormCell.Note"
+						},
+						{
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Value": "3. La opción de Movimientos permite visualizar los gastos de viaje registrados para una solicitud.",
+							"_Name": "FormCellNote3",
+							"_Type": "Control.Type.FormCell.Note"
+						}
+					],
+					"Visible": true
+				}
+			],
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"OnLoaded": "/SkyTM/Actions/Navegacion/IraAyudaConsulta.action",
+	"_Name": "Ayuda Contro Maestro",
+	"_Type": "Page"
+}

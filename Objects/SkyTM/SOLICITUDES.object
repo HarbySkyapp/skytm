@@ -1,0 +1,146 @@
+{
+	"Collection": [
+		"SOLICITUDES"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "SOC_ID",
+			"_Type": "SOCIEDADES"
+		},
+		{
+			"Key": false,
+			"_Name": "USER_ID",
+			"_Type": "USUARIOS"
+		},
+		{
+			"Key": false,
+			"_Name": "PROY_ID",
+			"_Type": "PROYECTOS"
+		},
+		{
+			"Key": false,
+			"_Name": "AREAD_ID",
+			"_Type": "AREAS"
+		},
+		{
+			"Key": false,
+			"_Name": "ESTSOL_ID",
+			"_Type": "ESTADOSSOLICITUDES"
+		},
+		{
+			"Key": false,
+			"_Name": "ESTCONT_ID",
+			"_Type": "ESTADOSCONTABLES"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "NUM_SOL",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SOL_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FECHA",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FECHA_SOL",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OBSERVACIONES",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "VAL_SOL",
+			"_Type": "Edm.Double"
+		},
+		{
+			"Key": false,
+			"_Name": "VAL_APRO",
+			"_Type": "Edm.Double"
+		},
+		{
+			"Key": false,
+			"_Name": "VAL_DIF",
+			"_Type": "Edm.Double"
+		},
+		{
+			"Key": false,
+			"_Name": "APROB_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "HORA_SOL",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DOC_CONT",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "SOC_ID_SOC_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "USER_ID_USER_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PROY_ID_SOC_ID_SOC_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PROY_ID_PROY_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AREAD_ID_SOC_ID_SOC_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AREAD_ID_AREA_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ESTSOL_ID_SOC_ID_SOC_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ESTSOL_ID_ESTSOL_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ESTCONT_ID_SOC_ID_SOC_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ESTCONT_ID_ESTCONT_ID",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SkyTM/Services/SkyTM.service",
+	"_Name": "SOLICITUDES"
+}

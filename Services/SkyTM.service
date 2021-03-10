@@ -1,0 +1,6 @@
+{
+	"AppId": "com.SkyTM.App",
+	"OfflineEnabled": true,
+	"ServiceUrl": "/destinations/SkyTmPrueba",
+	"SourceType": "Mobile"
+}

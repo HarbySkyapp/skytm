@@ -1,0 +1,70 @@
+{
+	"Caption": "AyudaGestionGastos",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"IsEditable": true,
+							"IsVisible": true,
+							"Value": "        Información Registro de Gastos",
+							"_Name": "FormCellTitle0",
+							"_Type": "Control.Type.FormCell.Title"
+						}
+					],
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Value": "Este módulo permite :",
+							"_Name": "FormCellTitle1",
+							"_Type": "Control.Type.FormCell.Title"
+						},
+						{
+							"IsEditable": true,
+							"IsVisible": true,
+							"Value": "1. Realizar sus Solicitudes de Gastos de Viaje o Caja Menor.",
+							"_Name": "FormCellNote0",
+							"_Type": "Control.Type.FormCell.Note"
+						},
+						{
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Value": "2. Aprobar cada una de las solicitudes por parte de un Usuario autorizado.",
+							"_Name": "FormCellNote1",
+							"_Type": "Control.Type.FormCell.Note"
+						},
+						{
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Value": "3. Registrar cada gasto que se genere durante el viaje. ",
+							"_Name": "FormCellNote2",
+							"_Type": "Control.Type.FormCell.Note"
+						},
+						{
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Value": "En la opción de Aprobador también permite autorizar los Gastos registrados y dejar estos disponibles para su futura contabilización.",
+							"_Name": "FormCellNote3",
+							"_Type": "Control.Type.FormCell.Note"
+						}
+					],
+					"Visible": true
+				}
+			],
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"OnLoaded": "/SkyTM/Actions/Navegacion/IraAyudaGastosViaje.action",
+	"_Name": "AyudaGestionGastos",
+	"_Type": "Page"
+}

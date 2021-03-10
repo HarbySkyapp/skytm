@@ -1,0 +1,207 @@
+{
+	"Caption": "Maestras",
+	"Controls": [
+		{
+			"Items": [
+				{
+					"Caption": "TabItem1",
+					"Image": "/SkyTM/Images/SKYTM.png",
+					"_Name": "ir",
+					"_Type": "Control.Type.TabItem"
+				},
+				{
+					"Caption": "TabItem1",
+					"_Name": "TabItem1",
+					"_Type": "Control.Type.TabItem"
+				},
+				{
+					"Caption": "TabItem1",
+					"_Name": "TabItem1",
+					"_Type": "Control.Type.TabItem"
+				}
+			],
+			"Position": "Bottom",
+			"Sections": [
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Layout": {
+						"NumberOfColumns": 1
+					},
+					"ObjectCells": [
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/negocios.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/Maestras/IrAMaestra_Sociedades.action",
+								"PreserveIconStackSpacing": false,
+								"Target": "",
+								"Title": "Sociedades",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/User.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/Maestras/IrAMaestra_Usuarios.action",
+								"PreserveIconStackSpacing": false,
+								"Title": "Usuarios",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/Areas.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/Maestras/IrAMaestra_Areas.action",
+								"PreserveIconStackSpacing": false,
+								"Target": "",
+								"Title": "Areas",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/Usercon.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/Maestras/IrAMaestra_Cargos.action",
+								"PreserveIconStackSpacing": false,
+								"Target": "",
+								"Title": "Cargos",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/rompracbezas.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/Maestras/IrAMaestra_Parametros.action",
+								"PreserveIconStackSpacing": false,
+								"Target": "",
+								"Title": "Parámetros",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/arquitectura.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/Maestras/IrAMaestra_Nivel.action",
+								"PreserveIconStackSpacing": false,
+								"Target": "",
+								"Title": "Níveles",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/erp.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/Maestras/IrAMaestra_Estandares.action",
+								"PreserveIconStackSpacing": false,
+								"Title": "Estándares",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/bussinespartner.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/Maestras/IrAMaestra_Proveedores.action",
+								"PreserveIconStackSpacing": false,
+								"Title": "Proveedores",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/Martillo.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/Maestras/IrAMaestra_Proyecto.action",
+								"PreserveIconStackSpacing": false,
+								"Title": "Proyectos",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/manos.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/Maestras/IrAMaestra_Aprobadores.action",
+								"PreserveIconStackSpacing": false,
+								"Title": "Aprobadores",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/globo.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/Maestras/IrAMaestra_Ciudades.action",
+								"PreserveIconStackSpacing": false,
+								"Title": "Ciudades",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/ajuste.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/Maestras/IrAMaestra_TipoGasto.action",
+								"PreserveIconStackSpacing": false,
+								"Title": "Tipos de Gastos",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/flecha.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/Maestras/IrAMaestra_TipoSolicitud.action",
+								"PreserveIconStackSpacing": false,
+								"Title": "Tipos de Solicitud",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"DetailImage": "/SkyTM/Images/seleccionar.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/SkyTM/Actions/Navegacion/Maestras/IrAMaestra_EstadoContab.action",
+								"PreserveIconStackSpacing": false,
+								"Title": "Estados de Solicitud",
+								"Visible": true
+							}
+						}
+					],
+					"Target": "",
+					"Visible": true,
+					"_Name": "SectionObjectCollection3",
+					"_Type": "Section.Type.ObjectCollection"
+				}
+			],
+			"Target": "",
+			"_Name": "Tabs0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"Target": "",
+	"_Name": "Reportar",
+	"_Type": "Page"
+}

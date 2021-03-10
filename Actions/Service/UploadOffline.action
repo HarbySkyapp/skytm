@@ -1,0 +1,9 @@
+{
+	"Service": "/SkyTM/Services/SkyTM.service",
+	"_Type": "Action.Type.OfflineOData.Upload",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnSuccess": "/SkyTM/Actions/Service/DownloadStartedMessage.action",
+	"OnFailure": "/SkyTM/Actions/Service/SyncFailureMessage.action"
+}

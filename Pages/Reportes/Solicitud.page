@@ -1,0 +1,149 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/SkyTM/Actions/ClosePage.action",
+				"Position": "right",
+				"SystemItem": "Save",
+				"Text": "Item",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "Solicitud",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Caption": "Codigo Solicitud",
+							"IsEditable": false,
+							"IsVisible": false,
+							"Target": "",
+							"Value": "/SkyTM/Rules/IdSolicitud.js",
+							"_Name": "C_Cod_Solicitud",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Fecha",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Mode": "date",
+							"Target": "",
+							"_Name": "C_Fec_Sis",
+							"_Type": "Control.Type.FormCell.DatePicker"
+						},
+						{
+							"Caption": "Hora",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Mode": "time",
+							"Target": "",
+							"_Name": "C_Hor_Sis",
+							"_Type": "Control.Type.FormCell.DatePicker"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"Caption": "Valor a Solicitar",
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese valor",
+							"Target": "",
+							"_Name": "Val_Sol",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Numero de Dias",
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "Ingrese valor",
+							"_Name": "FormCellSimpleProperty0",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": false,
+							"Caption": "Ciudad",
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": false,
+							"IsSearchCancelledAfterSelection": false,
+							"IsSelectedSectionEnabled": false,
+							"IsVisible": true,
+							"PickerItems": [
+								"Cali",
+								"Bogota",
+								"Medellin"
+							],
+							"PickerPrompt": "Please select one single item",
+							"Target": "",
+							"_Name": "FormCellListPicker4",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						},
+						{
+							"IsVisible": true,
+							"OnPress": "/SkyTM/Actions/Navegacion/Gastos/IraNuevoProyecto.action",
+							"Target": "",
+							"TextAlignment": "center",
+							"Title": "Nuevo Proyecto",
+							"_Name": "FormCellButton0",
+							"_Type": "Control.Type.FormCell.Button"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": false,
+							"Caption": "Receptor",
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": false,
+							"IsSearchCancelledAfterSelection": false,
+							"IsSelectedSectionEnabled": false,
+							"IsVisible": true,
+							"PickerItems": [
+								"Luis Fernando henao",
+								"Luis FernandoAndres Valencia"
+							],
+							"PickerPrompt": "Seleccione un receptor",
+							"Target": "",
+							"_Name": "C_Receptor",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"IsEditable": true,
+							"IsVisible": true,
+							"MaxNumberOfLines": 3,
+							"PlaceHolder": "Comentario",
+							"Target": "",
+							"_Name": "C_Observacion",
+							"_Type": "Control.Type.FormCell.Note"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				}
+			],
+			"Target": "",
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"Target": "",
+	"_Name": "Solicitud",
+	"_Type": "Page"
+}
